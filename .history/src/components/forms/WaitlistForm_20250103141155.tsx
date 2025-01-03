@@ -15,7 +15,7 @@ export const WaitlistModal = ({ isOpen, setIsOpen }: WaitlistModalProps) => {
     setLoading(true);
 
     try {
-      const response = await fetch('/api/submit-form', {
+      const response = await fetch('/api/submit-waitlist', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ email }),

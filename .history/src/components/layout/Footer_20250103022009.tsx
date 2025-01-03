@@ -24,8 +24,8 @@ export const Footer = () => (
         <div>
           <h4 className="font-semibold mb-4">Connect</h4>
           <div className="flex space-x-4">
-            <a href="https://instagram.com/it_just_one" className="text-gray-400 hover:text-white">
-            @it_just_one
+            <a href="https://instagram.com/itjustone" className="text-gray-400 hover:text-white">
+              @itjustone
             </a>
           </div>
         </div>
